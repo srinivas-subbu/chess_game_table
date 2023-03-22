@@ -1,0 +1,54 @@
+.chess_board_border {
+	width: 500px;
+	height: 500px;
+	background-color: #444343;
+	margin: auto;
+  margin-top: 5%;
+	position: relative;
+	overflow: hidden;
+}
+.chess_board {
+	width: 450px;
+	height: 450px;
+	background-color: white;
+	margin: auto;
+	margin-top: 25px;
+	position: relative;
+}
+.chess_cell {
+	float: left;
+	width: 56.25px;
+	height: 56.25px;
+}
+.chess_cell.bg0 {
+	background-color: #b58863;
+}
+.chess_cell.bg1 {
+	background-color: #f0d9b5;
+}
+.chess_figure {
+	position: absolute;
+}
+.chess_figure img {
+	width: 53px;
+	height: 53px;
+}
+.checkmate-popup {
+	width:100%;
+	min-height:100%;
+	background-color: rgba(0,0,0,0.5);
+	overflow:hidden;
+	position:fixed;
+	top:0px;
+}
+.checkmate-content {
+	margin: auto;
+	margin-top: 300px;
+	width: 200px;
+	height: 50px;
+	background-color: #c5c5c5;
+	padding: 10px;
+	border-radius:5px;
+	box-shadow: 0px 0px 10px #000;
+	text-align: center;
+}
